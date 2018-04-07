@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html>
+  
+  <head>
+    <title> Website </title>
+  </head>
   <body>
-    <head>
-      ABC
-   
-    <title>
-      def
-      <body>
-	hello world
-      </body>
-    </title>
-    </head>
+    
+
+    hello world
   </body>
+  
+  
 </html>
