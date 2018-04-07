@@ -7,9 +7,9 @@ app = Flask(__name__)
 api_url = 'http://borough-data.herokuapp.com'
 
 @app.route('/')
-def home():
+def index():
 	api_data = requests.get(api_url + '/borough').json()['data']
-	return render_template('home.html', boroughs=api_data)
+	return render_template('index.html', boroughs=api_data)
 
 @app.route('/view/borough/<int:id>')
 def render_borough_view(id):
