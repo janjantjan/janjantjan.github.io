@@ -11,7 +11,13 @@ print the 5 boroughs in order of descending population density, along with their
       </head>
       <body>
       <h1> Borough Fun Facts <h1>
-      <h2> Total Area of New York City </h2>
+      <h2> Total Area of New York City </h2> <br>
+      <h2> Population Density <h2><br>
+      <ol>
+			{% for boro in borough %}
+				<li>{{population}}</li>
+			{% endfor %}
+		</ol>
       <h1> My attempts to learn how to use HTML </h1>
       <h2> Random Pictures </h2>
       <img src="http://cdn2-www.dogtime.com/assets/uploads/2011/01/file_23192_pembroke-welsh-corgi-460x290.jpg" height="200">
