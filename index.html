@@ -15,7 +15,7 @@ print the 5 boroughs in order of descending population density, along with their
       <h2> Population Density <h2><br>
       <ol>
 			{% for borough in boroughs %}
-				<li>{{population}}</li>
+				<li><a href="/view{{borough.path}}">{{borough.population}}</a></li>
 			{% endfor %}
 		</ol>
       <h1> My attempts to learn how to use HTML </h1>
